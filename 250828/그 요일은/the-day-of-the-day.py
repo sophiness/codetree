@@ -3,7 +3,7 @@ A = input()
 
 # Please write your code here.
 
-days_of_week = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
+days_of_week = ['','Tue','Wed','Thu','Fri','Sat','Sun','Mon']
 A = days_of_week.index(A)
 A = int(A)
 
