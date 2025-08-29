@@ -13,7 +13,7 @@ def num_of_days(m,d):
         m+=days[i]
     return m+d
 
-diff = num_of_days(m2,d2)-num_of_days(m1,d1)
+diff = num_of_days(m2,d2)-num_of_days(m1,d1)+1
 if diff%7>A:
     print(diff//7+1)
 else:
