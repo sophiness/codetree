@@ -7,7 +7,7 @@ for _ in range(n):
     dir.append(di)
 
 # Please write your code here.
-block = [0]* sum(x)
+block = [0]*sum(x)*2
 idx = sum(x)//2
 
 for i in range(n):
