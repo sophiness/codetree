@@ -16,9 +16,9 @@ for i in range(n):
             if j != x[i]-1:
                 idx+=1
     else:
-        for _ in range(x[i]):
+        for k in range(x[i]):
             tiles[idx] = 'W'
-            if j != x[i]-1:
+            if k != x[i]-1:
                 idx-=1
 
 print(tiles.count('W'), tiles.count('B'))
